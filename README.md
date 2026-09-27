@@ -60,7 +60,7 @@ All three appear in the inserter under **23 Theme sections**. They contain neutr
 ## Accessibility and security foundations
 
 - Semantic `header`, `main`, and `footer` landmarks are used in templates.
-- A keyboard-visible skip link targets the main content area.
+- WordPress's keyboard-visible block-template skip link targets the main content area.
 - Focus indicators, restrained line lengths, fluid type, and sufficient default colour contrast are provided.
 - Dynamic PHP pattern strings are translated and escaped for their output context.
 - `functions.php` blocks direct execution and uses the `twentythree_` prefix for global PHP functions.

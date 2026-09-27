@@ -10,8 +10,8 @@
 ?>
 <!-- wp:group {"templateLock":"contentOnly","align":"full","backgroundColor":"surface","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-surface-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"52rem","justifyContent":"left"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"level":1,"fontSize":"display"} -->
-<h1 class="wp-block-heading has-display-font-size"><?php esc_html_e( 'A clear promise for your customer', 'twentythree' ); ?></h1>
+<div class="wp-block-group alignwide"><!-- wp:heading {"fontSize":"display"} -->
+<h2 class="wp-block-heading has-display-font-size"><?php esc_html_e( 'A clear promise for your customer', 'twentythree' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"muted","fontSize":"large"} -->
