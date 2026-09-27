@@ -1,0 +1,32 @@
+/*
+Theme Name: 23 Theme
+Theme URI: https://23web.co.uk/
+Author: 23 Web
+Author URI: https://23web.co.uk/
+Description: A small, reusable block-theme foundation for websites built by 23 Web.
+Requires at least: 6.6
+Requires PHP: 7.4
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentythree
+Tags: block-patterns, block-styles, full-site-editing
+*/
+
+/* Keep keyboard focus visible without imposing component-specific presentation. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+	outline: 3px solid var(--wp--preset--color--accent);
+	outline-offset: 3px;
+}
+
+/* WordPress supplies the utility class; this makes the skip link visible on focus. */
+.skip-link:focus {
+	clip: auto !important;
+	clip-path: none;
+	height: auto;
+	left: var(--wp--preset--spacing--30);
+	padding: 0.75rem 1rem;
+	top: var(--wp--preset--spacing--30);
+	width: auto;
+	z-index: 100000;
+}
